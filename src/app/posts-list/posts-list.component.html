@@ -1,0 +1,30 @@
+<h1>Posts:</h1>
+
+
+<app-menu (impulsoOnCambiaPagina)="paginaCambia($event)"></app-menu>  
+
+
+
+<div *ngIf="paginaSelezionata == 'tutti'">
+    <app-post-detail  *ngFor="let elementoIessimoOggettoPost of arrayDiOggettiPosts" [elementoIessimoOggettoPostt]="elementoIessimoOggettoPost" ></app-post-detail>
+</div>
+
+<div *ngIf="paginaSelezionata == 'viaggi'">
+    <app-post-detail  *ngFor="let elementoIessimoOggettoPost of arrayDiOggettiPostsFilterTravel" [elementoIessimoOggettoPostt]="elementoIessimoOggettoPost" ></app-post-detail>
+
+
+
+</div>
+<div *ngIf="paginaSelezionata == 'cucina'">
+    <app-post-detail  *ngFor="let elementoIessimoOggettoPost of arrayDiOggettiPostsFilterFood" [elementoIessimoOggettoPostt]="elementoIessimoOggettoPost" ></app-post-detail>
+
+
+
+</div>
+<div *ngIf="paginaSelezionata == 'moda'">
+    <app-post-detail  *ngFor="let elementoIessimoOggettoPost of arrayDiOggettiPostsFilterFashion" [elementoIessimoOggettoPostt]="elementoIessimoOggettoPost" ></app-post-detail>
+
+
+
+</div>
+

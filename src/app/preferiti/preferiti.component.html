@@ -1,0 +1,17 @@
+<h1>Preferiti:</h1>
+<div *ngFor="let elementoIessimoOggettoPreferitiPost of postsService.arrayDiOggettiPreferitiPosts" class="contenitorePreferito">
+    <!-- ! "*ngFor" è SEMPRE in ascolto di un eventuale variazione di "postsService.arrayDiOggettiPreferitiPosts".Questo è dovuto al "databinding"-->
+
+
+
+    <h4>{{elementoIessimoOggettoPreferitiPost.title}}</h4>
+    <button id="buttonEliminaPostPreferito" type="button" (click)="eliminaPostPreferito(elementoIessimoOggettoPreferitiPost)">Elimina</button>
+
+
+
+</div>
+<div    *ngIf="postsService.bottoneCompare == 'compareButton'">
+    <button type="button" (click)="svuotaTuttoPreferiti('sparisceButton')">Svuota tutto</button>
+    
+</div>
+

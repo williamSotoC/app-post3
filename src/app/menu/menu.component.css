@@ -1,0 +1,54 @@
+button {
+    min-height: 2.8rem;
+    width: 15%;
+    border: none;
+    cursor: pointer;
+}
+
+/* ! colore di sfondo dei button: "tutti" , ""viaggi", cucina", "moda" */
+.tutti,.viaggi,.cucina,.moda {
+    transition: 400ms ease-in;
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+}
+
+.tutti {
+    background-color: #0f03f0e8;
+   
+}
+
+.tutti:hover {
+    background-color:  #0f03f08c;
+}
+
+.viaggi {
+    background-color: #12cc5cdf;
+
+}
+
+.viaggi:hover {
+    background-color: #12cc5c91;
+
+}
+
+.cucina {
+    background-color: #dcff14;
+
+}
+.cucina:hover  {
+    background-color: #cff42cdc;
+
+}
+
+.moda {
+    background-color: #db0c0c;
+}
+
+.moda:hover {
+    background-color: #db0c0cab;
+}
+/* ! colore dei button tutti , viaggi, cucina, moda */
+
+

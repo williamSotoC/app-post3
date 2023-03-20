@@ -1,0 +1,51 @@
+h1 {
+    color: #f00;
+}
+
+.contenitorePreferito {
+    border: 1px solid red;
+}
+
+h4 {
+    display: inline-block;
+
+}
+
+#buttonEliminaPostPreferito {
+    display: inline-block;
+    background-color: #ec3208;
+    border: none;
+    margin-left: 1.5rem;
+    min-height: 2rem;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    width: 12%;
+    transition: 400ms ease-in;
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+}
+
+#buttonEliminaPostPreferito:hover {
+    background-color: #ec320886;
+
+
+}
+
+button {
+    width: 25%;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    min-height: 2.5rem;
+    background-color: #c0ff03;
+
+}

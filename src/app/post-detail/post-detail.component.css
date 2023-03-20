@@ -1,0 +1,26 @@
+button {
+    background-color: #1900fff5;
+    min-height: 2rem;
+    border: none;
+    color: #fff;
+    transition: 500ms ease-in;
+    -webkit-transition: 500ms ease-in;
+    -moz-transition: 500ms ease-in;
+    -ms-transition: 500ms ease-in;
+    -o-transition: 500ms ease-in;
+    cursor: pointer;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+}
+button:hover {
+    background-color:  #1900ff6d;
+
+
+}
+
+h2, span {
+    color: red;
+}

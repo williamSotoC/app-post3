@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    
+
+}
+
+.contenitorePrincipale {
+    width: 100%;
+    max-width: 800px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+
+}
+
+
+.contenitoreDetail {
+    border: 7px solid #f00;
+    padding: 4rem;
+    margin-bottom: 2rem;
+
+    
+}
+
+
